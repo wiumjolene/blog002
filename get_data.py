@@ -8,7 +8,8 @@ from shapely.geometry import Point, Polygon
 class ManageCoordinates:
 
     def get_coastline(self):
-        data=open('RSACoast.gpx')
+        
+        data=open('assets/RSACoast.gpx')
         xmldoc = minidom.parse(data)
         track = xmldoc.getElementsByTagName('trkpt')
         n_track=len(track)

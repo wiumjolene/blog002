@@ -54,8 +54,8 @@ class MakeVisualisation:
             ),
         )
 
-        for c in df['colours'].unique():
-            df_color = df[df['colours'] == c].reset_index(drop=True)
+        for col in df['colours'].unique():
+            df_color = df[df['colours'] == col].reset_index(drop=True)
             vessels = list(df_color['vessel_name'])
             dates = list(df_color['date'])
             ports = list(df_color['port'])
@@ -70,8 +70,9 @@ class MakeVisualisation:
                 lon=df_color['lon'],
                 text=text,
                 textposition = "bottom right",
-                name=cats[c],
-                marker=dict(color=c, size=16), 
+                name=df_color['status'][0],
+                #name=cats[col],
+                marker=dict(color=col, size=16), 
                 customdata=df_color['vessel_name'],
                 hovertemplate='<b>%{customdata}</b>'
                 )
