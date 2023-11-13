@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<gpx version="1.1" creator="GDAL 2.2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ogr="http://osgeo.org/gdal" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<metadata><bounds minlat="-37.554081250461998" minlon="12.562278175825000" maxlat="-26.774790957163901" maxlon="37.553855048725602"/></metadata>                
+<trk>
+  <name>South African Coastline</name>
+  <trkseg>
+    <trkpt lat="-28.573125267182299" lon="16.470809072324101">
+    </trkpt>
+    <trkpt lat="-28.480556008321901" lon="12.562278175825">
+    </trkpt>
+    <trkpt lat="-32.524894033162496" lon="13.9629433275758">
+    </trkpt>
+    <trkpt lat="-36.036182146777399" lon="15.8106661938249">
+    </trkpt>
+    <trkpt lat="-37.554081250461998" lon="20.021161574758501">
+    </trkpt>
+    <trkpt lat="-37.545173456642303" lon="26.432938504988599">
+    </trkpt>
+    <trkpt lat="-34.737924204323903" lon="32.343742336503396">
+    </trkpt>
+    <trkpt lat="-29.331528657076301" lon="37.305332876493203">
+    </trkpt>
+    <trkpt lat="-26.8024712225081" lon="37.553855048725602">
+    </trkpt>
+    <trkpt lat="-26.774790957163901" lon="32.689485220132902">
+    </trkpt>
+    <trkpt lat="-28.371920666854098" lon="31.933613193003101">
+    </trkpt>
+    <trkpt lat="-29.910640403486301" lon="30.6344151274882">
+    </trkpt>
+    <trkpt lat="-31.4033073712441" lon="29.286258011405199">
+    </trkpt>
+    <trkpt lat="-33.332401341705904" lon="26.686528131213802">
+    </trkpt>
+    <trkpt lat="-33.835685162965603" lon="25.196035514717899">
+    </trkpt>
+    <trkpt lat="-33.882331534101901" lon="22.2740330755625">
+    </trkpt>
+    <trkpt lat="-34.2958578603929" lon="20.183091675880899">
+    </trkpt>
+    <trkpt lat="-34.114149185551497" lon="19.090291446812799">
+    </trkpt>
+    <trkpt lat="-33.519283440548698" lon="18.545249892347801">
+    </trkpt>
+    <trkpt lat="-32.934329292795297" lon="18.2978523220537">
+    </trkpt>
+    <trkpt lat="-32.469604688208598" lon="18.767913183803">
+    </trkpt>
+    <trkpt lat="-31.096758258653999" lon="18.315838955211799">
+    </trkpt>
+    <trkpt lat="-28.573125267182299" lon="16.470809072324101">
+    </trkpt>
+  </trkseg>
+</trk>
+</gpx>
