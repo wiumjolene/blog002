@@ -83,7 +83,7 @@ class MakeVisualisation:
     def make_mapboxplot_markersonly(self, df, coastline):
         mapbox_center_lon = 24.386058
         mapbox_center_lat = -32.2
-        mapbox_zoom = 4.5
+        mapbox_zoom = 5
         mapbox_access_token = os.environ.get('MAPBOXTOKEN')
 
         color = df['colours']
@@ -142,7 +142,7 @@ class MakeVisualisation:
     def make_mapboxplot_geofenceonly(self, df, coastline):
         mapbox_center_lon = 24.386058
         mapbox_center_lat = -32.2
-        mapbox_zoom = 4.5
+        mapbox_zoom = 5
         mapbox_access_token = os.environ.get('MAPBOXTOKEN')
         print(mapbox_access_token)
 

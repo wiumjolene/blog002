@@ -51,7 +51,7 @@ cards = dbc.Row(
 footer = dash.html.Div(
     dash.html.P(
         """
-        This is site maintained and hosted by Jolene Wium.
+        This is site maintained and hosted by Jolene Wium on Azure web services.
         """
     ),
     className="p-2 mt-5 bg-light text-dark small",
